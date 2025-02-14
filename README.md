@@ -22,3 +22,10 @@ Then it **elaborates** the entity defined by `$TB_ENTITY`
 Finally, the workflow **runs** the simulation. If successful then it will quietly exit with a `0` code.
 If any of the `assert` statements fail then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
 Assert statements of other severity levels will be reported, but not fail the workflow.
+
+![waveform](ripple_adder.png)
+![entity drawing](top_basys3_entity.png)
+
+## Documentation
+
+C3C Dominick Lisitsin helped me with the syntax for defining components, drawing the entity diagram, and pushing my files to github
